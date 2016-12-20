@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59329EDE1E097576005087E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59329EDD1E097576005087E7 /* AppDelegate.swift */; };
+		59329EE01E097576005087E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59329EDF1E097576005087E7 /* ViewController.swift */; };
+		59329EE31E097576005087E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59329EE11E097576005087E7 /* Main.storyboard */; };
+		59329EE51E097576005087E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59329EE41E097576005087E7 /* Assets.xcassets */; };
+		59329EE81E097576005087E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59329EE61E097576005087E7 /* LaunchScreen.storyboard */; };
+		59329EF31E097576005087E7 /* PracticaFutbolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59329EF21E097576005087E7 /* PracticaFutbolTests.swift */; };
+		59329EFE1E097576005087E7 /* PracticaFutbolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59329EFD1E097576005087E7 /* PracticaFutbolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59329EEF1E097576005087E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59329ED21E097576005087E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59329ED91E097576005087E7;
+			remoteInfo = PracticaFutbol;
+		};
+		59329EFA1E097576005087E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59329ED21E097576005087E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59329ED91E097576005087E7;
+			remoteInfo = PracticaFutbol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59329EDA1E097576005087E7 /* PracticaFutbol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaFutbol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59329EDD1E097576005087E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59329EDF1E097576005087E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59329EE21E097576005087E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59329EE41E097576005087E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59329EE71E097576005087E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59329EE91E097576005087E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59329EEE1E097576005087E7 /* PracticaFutbolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaFutbolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59329EF21E097576005087E7 /* PracticaFutbolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaFutbolTests.swift; sourceTree = "<group>"; };
+		59329EF41E097576005087E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59329EF91E097576005087E7 /* PracticaFutbolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaFutbolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59329EFD1E097576005087E7 /* PracticaFutbolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaFutbolUITests.swift; sourceTree = "<group>"; };
+		59329EFF1E097576005087E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59329ED71E097576005087E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59329EEB1E097576005087E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59329EF61E097576005087E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59329ED11E097576005087E7 = {
+			isa = PBXGroup;
+			children = (
+				59329EDC1E097576005087E7 /* PracticaFutbol */,
+				59329EF11E097576005087E7 /* PracticaFutbolTests */,
+				59329EFC1E097576005087E7 /* PracticaFutbolUITests */,
+				59329EDB1E097576005087E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59329EDB1E097576005087E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59329EDA1E097576005087E7 /* PracticaFutbol.app */,
+				59329EEE1E097576005087E7 /* PracticaFutbolTests.xctest */,
+				59329EF91E097576005087E7 /* PracticaFutbolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59329EDC1E097576005087E7 /* PracticaFutbol */ = {
+			isa = PBXGroup;
+			children = (
+				59329EDD1E097576005087E7 /* AppDelegate.swift */,
+				59329EDF1E097576005087E7 /* ViewController.swift */,
+				59329EE11E097576005087E7 /* Main.storyboard */,
+				59329EE41E097576005087E7 /* Assets.xcassets */,
+				59329EE61E097576005087E7 /* LaunchScreen.storyboard */,
+				59329EE91E097576005087E7 /* Info.plist */,
+			);
+			path = PracticaFutbol;
+			sourceTree = "<group>";
+		};
+		59329EF11E097576005087E7 /* PracticaFutbolTests */ = {
+			isa = PBXGroup;
+			children = (
+				59329EF21E097576005087E7 /* PracticaFutbolTests.swift */,
+				59329EF41E097576005087E7 /* Info.plist */,
+			);
+			path = PracticaFutbolTests;
+			sourceTree = "<group>";
+		};
+		59329EFC1E097576005087E7 /* PracticaFutbolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59329EFD1E097576005087E7 /* PracticaFutbolUITests.swift */,
+				59329EFF1E097576005087E7 /* Info.plist */,
+			);
+			path = PracticaFutbolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59329ED91E097576005087E7 /* PracticaFutbol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59329F021E097576005087E7 /* Build configuration list for PBXNativeTarget "PracticaFutbol" */;
+			buildPhases = (
+				59329ED61E097576005087E7 /* Sources */,
+				59329ED71E097576005087E7 /* Frameworks */,
+				59329ED81E097576005087E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PracticaFutbol;
+			productName = PracticaFutbol;
+			productReference = 59329EDA1E097576005087E7 /* PracticaFutbol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59329EED1E097576005087E7 /* PracticaFutbolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59329F051E097576005087E7 /* Build configuration list for PBXNativeTarget "PracticaFutbolTests" */;
+			buildPhases = (
+				59329EEA1E097576005087E7 /* Sources */,
+				59329EEB1E097576005087E7 /* Frameworks */,
+				59329EEC1E097576005087E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59329EF01E097576005087E7 /* PBXTargetDependency */,
+			);
+			name = PracticaFutbolTests;
+			productName = PracticaFutbolTests;
+			productReference = 59329EEE1E097576005087E7 /* PracticaFutbolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59329EF81E097576005087E7 /* PracticaFutbolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59329F081E097576005087E7 /* Build configuration list for PBXNativeTarget "PracticaFutbolUITests" */;
+			buildPhases = (
+				59329EF51E097576005087E7 /* Sources */,
+				59329EF61E097576005087E7 /* Frameworks */,
+				59329EF71E097576005087E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59329EFB1E097576005087E7 /* PBXTargetDependency */,
+			);
+			name = PracticaFutbolUITests;
+			productName = PracticaFutbolUITests;
+			productReference = 59329EF91E097576005087E7 /* PracticaFutbolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59329ED21E097576005087E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Javier;
+				TargetAttributes = {
+					59329ED91E097576005087E7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = K7W2C2QE45;
+						ProvisioningStyle = Automatic;
+					};
+					59329EED1E097576005087E7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = K7W2C2QE45;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59329ED91E097576005087E7;
+					};
+					59329EF81E097576005087E7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = K7W2C2QE45;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59329ED91E097576005087E7;
+					};
+				};
+			};
+			buildConfigurationList = 59329ED51E097576005087E7 /* Build configuration list for PBXProject "PracticaFutbol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59329ED11E097576005087E7;
+			productRefGroup = 59329EDB1E097576005087E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59329ED91E097576005087E7 /* PracticaFutbol */,
+				59329EED1E097576005087E7 /* PracticaFutbolTests */,
+				59329EF81E097576005087E7 /* PracticaFutbolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59329ED81E097576005087E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59329EE81E097576005087E7 /* LaunchScreen.storyboard in Resources */,
+				59329EE51E097576005087E7 /* Assets.xcassets in Resources */,
+				59329EE31E097576005087E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59329EEC1E097576005087E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59329EF71E097576005087E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59329ED61E097576005087E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59329EE01E097576005087E7 /* ViewController.swift in Sources */,
+				59329EDE1E097576005087E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59329EEA1E097576005087E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59329EF31E097576005087E7 /* PracticaFutbolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59329EF51E097576005087E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59329EFE1E097576005087E7 /* PracticaFutbolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59329EF01E097576005087E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59329ED91E097576005087E7 /* PracticaFutbol */;
+			targetProxy = 59329EEF1E097576005087E7 /* PBXContainerItemProxy */;
+		};
+		59329EFB1E097576005087E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59329ED91E097576005087E7 /* PracticaFutbol */;
+			targetProxy = 59329EFA1E097576005087E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59329EE11E097576005087E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59329EE21E097576005087E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59329EE61E097576005087E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59329EE71E097576005087E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59329F001E097576005087E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59329F011E097576005087E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59329F031E097576005087E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K7W2C2QE45;
+				INFOPLIST_FILE = PracticaFutbol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.PracticaFutbol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		59329F041E097576005087E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K7W2C2QE45;
+				INFOPLIST_FILE = PracticaFutbol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.PracticaFutbol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		59329F061E097576005087E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K7W2C2QE45;
+				INFOPLIST_FILE = PracticaFutbolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.PracticaFutbolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticaFutbol.app/PracticaFutbol";
+			};
+			name = Debug;
+		};
+		59329F071E097576005087E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K7W2C2QE45;
+				INFOPLIST_FILE = PracticaFutbolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.PracticaFutbolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticaFutbol.app/PracticaFutbol";
+			};
+			name = Release;
+		};
+		59329F091E097576005087E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K7W2C2QE45;
+				INFOPLIST_FILE = PracticaFutbolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.PracticaFutbolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PracticaFutbol;
+			};
+			name = Debug;
+		};
+		59329F0A1E097576005087E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K7W2C2QE45;
+				INFOPLIST_FILE = PracticaFutbolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.PracticaFutbolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PracticaFutbol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59329ED51E097576005087E7 /* Build configuration list for PBXProject "PracticaFutbol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59329F001E097576005087E7 /* Debug */,
+				59329F011E097576005087E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59329F021E097576005087E7 /* Build configuration list for PBXNativeTarget "PracticaFutbol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59329F031E097576005087E7 /* Debug */,
+				59329F041E097576005087E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59329F051E097576005087E7 /* Build configuration list for PBXNativeTarget "PracticaFutbolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59329F061E097576005087E7 /* Debug */,
+				59329F071E097576005087E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59329F081E097576005087E7 /* Build configuration list for PBXNativeTarget "PracticaFutbolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59329F091E097576005087E7 /* Debug */,
+				59329F0A1E097576005087E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59329ED21E097576005087E7 /* Project object */;
+}
