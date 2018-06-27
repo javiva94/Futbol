@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		59329EDE1E097576005087E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59329EDD1E097576005087E7 /* AppDelegate.swift */; };
-		59329EE01E097576005087E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59329EDF1E097576005087E7 /* ViewController.swift */; };
 		59329EE31E097576005087E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59329EE11E097576005087E7 /* Main.storyboard */; };
 		59329EE51E097576005087E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59329EE41E097576005087E7 /* Assets.xcassets */; };
 		59329EE81E097576005087E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59329EE61E097576005087E7 /* LaunchScreen.storyboard */; };
 		59329EF31E097576005087E7 /* PracticaFutbolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59329EF21E097576005087E7 /* PracticaFutbolTests.swift */; };
 		59329EFE1E097576005087E7 /* PracticaFutbolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59329EFD1E097576005087E7 /* PracticaFutbolUITests.swift */; };
+		59329F0C1E097A03005087E7 /* Competiciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59329F0B1E097A03005087E7 /* Competiciones.swift */; };
+		59329F0E1E097A10005087E7 /* Equipos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59329F0D1E097A10005087E7 /* Equipos.swift */; };
+		59329F101E097A1C005087E7 /* Partidos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59329F0F1E097A1C005087E7 /* Partidos.swift */; };
+		5989503C1E0C457A0012E7E1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5989503B1E0C457A0012E7E1 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		59329EDA1E097576005087E7 /* PracticaFutbol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaFutbol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59329EDD1E097576005087E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59329EDF1E097576005087E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59329EE21E097576005087E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59329EE41E097576005087E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59329EE71E097576005087E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		59329EF91E097576005087E7 /* PracticaFutbolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaFutbolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59329EFD1E097576005087E7 /* PracticaFutbolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaFutbolUITests.swift; sourceTree = "<group>"; };
 		59329EFF1E097576005087E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59329F0B1E097A03005087E7 /* Competiciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Competiciones.swift; sourceTree = "<group>"; };
+		59329F0D1E097A10005087E7 /* Equipos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Equipos.swift; sourceTree = "<group>"; };
+		59329F0F1E097A1C005087E7 /* Partidos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Partidos.swift; sourceTree = "<group>"; };
+		5989503B1E0C457A0012E7E1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		59329EDC1E097576005087E7 /* PracticaFutbol */ = {
 			isa = PBXGroup;
 			children = (
+				5989503B1E0C457A0012E7E1 /* TableViewCell.swift */,
 				59329EDD1E097576005087E7 /* AppDelegate.swift */,
-				59329EDF1E097576005087E7 /* ViewController.swift */,
 				59329EE11E097576005087E7 /* Main.storyboard */,
+				59329F0B1E097A03005087E7 /* Competiciones.swift */,
+				59329F0D1E097A10005087E7 /* Equipos.swift */,
+				59329F0F1E097A1C005087E7 /* Partidos.swift */,
 				59329EE41E097576005087E7 /* Assets.xcassets */,
 				59329EE61E097576005087E7 /* LaunchScreen.storyboard */,
 				59329EE91E097576005087E7 /* Info.plist */,
@@ -262,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59329EE01E097576005087E7 /* ViewController.swift in Sources */,
+				5989503C1E0C457A0012E7E1 /* TableViewCell.swift in Sources */,
+				59329F0C1E097A03005087E7 /* Competiciones.swift in Sources */,
+				59329F0E1E097A10005087E7 /* Equipos.swift in Sources */,
+				59329F101E097A1C005087E7 /* Partidos.swift in Sources */,
 				59329EDE1E097576005087E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +526,7 @@
 				59329F041E097576005087E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59329F051E097576005087E7 /* Build configuration list for PBXNativeTarget "PracticaFutbolTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				59329F071E097576005087E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59329F081E097576005087E7 /* Build configuration list for PBXNativeTarget "PracticaFutbolUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				59329F0A1E097576005087E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,26 +1,229 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DFi-ih-sRF">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Tab Bar Controller-->
+        <scene sceneID="Nl1-y9-r47">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tabBarController id="DFi-ih-sRF" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="39p-tV-XhM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="pqv-8m-EcA" kind="relationship" relationship="viewControllers" id="zxo-tI-cqV"/>
+                        <segue destination="XTE-JF-3XK" kind="relationship" relationship="viewControllers" id="Wm1-2F-HYj"/>
+                        <segue destination="bEi-7Z-R9U" kind="relationship" relationship="viewControllers" id="LeG-HS-fTS"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xt1-Y2-4EO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-444" y="220"/>
+        </scene>
+        <!--Partidos-->
+        <scene sceneID="da8-WQ-PpP">
+            <objects>
+                <tableViewController id="z3q-wW-O3D" customClass="Partidos" customModule="PracticaFutbol" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="55" sectionHeaderHeight="28" sectionFooterHeight="28" id="ozI-HO-wxV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="matchescell" selectionStyle="default" indentationWidth="10" reuseIdentifier="matchescell" textLabel="kle-Wo-coR" detailTextLabel="ppu-ao-6J4" rowHeight="55" style="IBUITableViewCellStyleSubtitle" id="udp-yP-b5h" customClass="TableViewCell" customModule="PracticaFutbol" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="55"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="udp-yP-b5h" id="Hhl-mm-ML6">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="54"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kle-Wo-coR">
+                                            <rect key="frame" x="15" y="9" width="34" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ppu-ao-6J4">
+                                            <rect key="frame" x="15" y="30" width="44" height="15"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="z3q-wW-O3D" id="KRC-BQ-cq3"/>
+                            <outlet property="delegate" destination="z3q-wW-O3D" id="5YJ-De-fkj"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Partidos" id="8po-Mm-IAA"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="obI-WN-M5k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1522.4000000000001" y="642.72863568215894"/>
+        </scene>
+        <!--Partidos-->
+        <scene sceneID="RGn-W5-F5f">
+            <objects>
+                <navigationController id="bEi-7Z-R9U" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Partidos" id="Z9N-6k-Eow"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0eo-pM-zEl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="z3q-wW-O3D" kind="relationship" relationship="rootViewController" id="0If-KG-N1G"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8eJ-Ar-5A7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="570" y="643"/>
+        </scene>
+        <!--Inicio-->
+        <scene sceneID="ntH-HB-PYR">
+            <objects>
+                <viewController id="pqv-8m-EcA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VPd-JV-Jz7"/>
+                        <viewControllerLayoutGuide type="bottom" id="kgs-I3-3My"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BWG-Hp-1sr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="futbol" translatesAutoresizingMaskIntoConstraints="NO" id="zEc-fE-FMI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kgs-I3-3My" firstAttribute="top" secondItem="zEc-fE-FMI" secondAttribute="bottom" id="CAF-CZ-ZS2"/>
+                            <constraint firstItem="zEc-fE-FMI" firstAttribute="top" secondItem="BWG-Hp-1sr" secondAttribute="top" id="YNN-dv-O7P"/>
+                            <constraint firstAttribute="trailing" secondItem="zEc-fE-FMI" secondAttribute="trailing" id="g5W-H4-6A8"/>
+                            <constraint firstItem="zEc-fE-FMI" firstAttribute="leading" secondItem="BWG-Hp-1sr" secondAttribute="leading" id="gqX-jk-mtb"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Inicio" id="YH8-Sw-0zr" userLabel="Inicio"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gx6-r7-6md" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="569" y="1581"/>
+        </scene>
+        <!--Competiciones-->
+        <scene sceneID="ioI-0W-ARK">
+            <objects>
+                <tableViewController id="gnd-zU-B0f" customClass="Competiciones" customModule="PracticaFutbol" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="7cl-bl-or8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="seguecompetis" selectionStyle="default" indentationWidth="10" reuseIdentifier="seguecompetis" textLabel="OZB-6s-0yJ" style="IBUITableViewCellStyleDefault" id="Rjm-YR-nQY">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rjm-YR-nQY" id="qdU-eE-9T8">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OZB-6s-0yJ">
+                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="ten-qj-eBa" kind="show" identifier="segueEquipos" id="D22-d1-lNv"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="gnd-zU-B0f" id="5wG-Qf-cU2"/>
+                            <outlet property="delegate" destination="gnd-zU-B0f" id="XWV-7S-Ils"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Competiciones" id="tgi-Gz-12f" userLabel="Competiciones"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="exI-yf-bjD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1542" y="-323"/>
+        </scene>
+        <!--Equipos-->
+        <scene sceneID="NPL-1X-uH6">
+            <objects>
+                <tableViewController id="ten-qj-eBa" customClass="Equipos" customModule="PracticaFutbol" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="dAD-1f-n7Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="Xbw-K2-KFE">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <items>
+                                <navigationItem title="Equipos" id="HIm-n7-iGe"/>
+                            </items>
+                        </navigationBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Equipos_cell" textLabel="2J1-hs-ys3" style="IBUITableViewCellStyleDefault" id="4a9-qe-FtW">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4a9-qe-FtW" id="P4u-Eq-2sv">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2J1-hs-ys3">
+                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ten-qj-eBa" id="Pa6-lK-eqv"/>
+                            <outlet property="delegate" destination="ten-qj-eBa" id="QeW-UV-GyB"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zih-TP-Hdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2534" y="-323"/>
+        </scene>
+        <!--Competiciones-->
+        <scene sceneID="jCv-Vh-c5V">
+            <objects>
+                <navigationController id="XTE-JF-3XK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Competiciones" id="74e-8p-wul"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aeM-1Y-K9u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gnd-zU-B0f" kind="relationship" relationship="rootViewController" id="Nm3-ow-Hj4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a5z-bO-ccL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="589" y="-323"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="futbol" width="674" height="420"/>
+    </resources>
 </document>
